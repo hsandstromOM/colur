@@ -5,7 +5,6 @@
   "engines": {
     "node": "6.11.1"
   },
-  "main": "index.html",
   "author": "Obviouslee Marketing Hosea Sandstrom",
   "scripts": {
     "build": "rimraf dist && webpack --bail --progress --profile",
@@ -13,7 +12,7 @@
     "test": "karma start",
     "test-watch": "karma start --auto-watch --no-single-run",
     "start": "npm run server",
-    "heroku-postbuild": "webpack -p --config ./webpack.config.js --progress"
+    "prod": "webpack -p"
   },
   "dependencies": {
     "angular": "^1.5.0",
@@ -24,7 +23,7 @@
     "babel-preset-es2015": "^6.1.18",
     "copy-webpack-plugin": "4.0.1",
     "css-loader": "0.26.1",
-    "extract-text-webpack-plugin": "2.0.0-beta.5",
+    "extract-text-webpack-plugin": "2.1.2",
     "file-loader": "^0.9.0",
     "html-webpack-plugin": "^2.7.1",
     "jasmine-core": "^2.3.4",
@@ -48,13 +47,14 @@
     "karma-spec-reporter": "0.0.26",
     "karma-webpack": "2.0.1"
   },
-    "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/hsandstromOM/colur.git"
-    },
-    "bugs": {
-      "url": "https://github.com/hsandstromOM/colur/issues"
-    },
-    "homepage": "https://github.com/hsandstromOM/colur#readme"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsandstromOM/colur.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hsandstromOM/colur/issues"
+  },
+  "homepage": "https://github.com/hsandstromOM/colur#readme",
+  "main": "dist/app.[hash].js"
 }
