@@ -1,7 +1,12 @@
 {
-  "name": "angular-webpack-workflow",
+  "name": "colur",
   "version": "1.1.0",
-  "description": "A workflow for Angular made with Webpack",
+  "description": "Colur",
+  "engines": {
+    "node": "6.11.1"
+  },
+  "main": "index.html",
+  "author": "Obviouslee Marketing Hosea Sandstrom",
   "scripts": {
     "build": "rimraf dist && webpack --bail --progress --profile",
     "server": "webpack-dev-server --history-api-fallback --inline --progress",
@@ -22,15 +27,7 @@
     "extract-text-webpack-plugin": "2.0.0-beta.5",
     "file-loader": "^0.9.0",
     "html-webpack-plugin": "^2.7.1",
-    "istanbul-instrumenter-loader": "^1.0.0",
     "jasmine-core": "^2.3.4",
-    "karma": "^1.1.0",
-    "karma-coverage": "^1.0.0",
-    "karma-jasmine": "^1.0.2",
-    "karma-phantomjs-launcher": "^1.0.0",
-    "karma-sourcemap-loader": "^0.3.7",
-    "karma-spec-reporter": "0.0.26",
-    "karma-webpack": "2.0.1",
     "node-libs-browser": "2.0.0",
     "null-loader": "^0.1.1",
     "phantomjs-prebuilt": "^2.1.4",
@@ -42,5 +39,22 @@
     "webpack-dev-server": "2.2.0"
   },
   "devDependencies": {
-  }
+    "istanbul-instrumenter-loader": "^1.0.0",
+    "karma": "^1.1.0",
+    "karma-coverage": "^1.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-spec-reporter": "0.0.26",
+    "karma-webpack": "2.0.1"
+  },
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/hsandstromOM/colur.git"
+    },
+    "bugs": {
+      "url": "https://github.com/hsandstromOM/colur/issues"
+    },
+    "homepage": "https://github.com/hsandstromOM/colur#readme"
 }
