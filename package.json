@@ -12,7 +12,8 @@
     "test": "karma start",
     "test-watch": "karma start --auto-watch --no-single-run",
     "start": "npm run server",
-    "prod": "webpack -p"
+    "prod": "webpack -p",
+    "heroku-postbuild": "webpack -p --config ./webpack.config.js --progress"
   },
   "dependencies": {
     "angular": "^1.5.0",
@@ -55,6 +56,5 @@
   "bugs": {
     "url": "https://github.com/hsandstromOM/colur/issues"
   },
-  "homepage": "https://github.com/hsandstromOM/colur#readme",
-  "main": "dist/app.[hash].js"
+  "homepage": "https://github.com/hsandstromOM/colur#readme"
 }
