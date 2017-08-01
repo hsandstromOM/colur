@@ -23,7 +23,7 @@ if (isDeveloping) {
       modules: false,
     },
   });
-  app.use(express.static('public'));
+  app.use(express.static('dist/public'));
   app.use(middleware);
   app.use(webpackHotMiddleware(compiler));
   app.get('*', (req, res) => {
