@@ -1,21 +1,387 @@
 body {
-  background: #295618;
-  color: #FFF;
-  font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', sans-serif;
+ margin: 0;
+ padding: 0;
 }
 
-#root {
+#background
+{
+  left: 0px;
+  top: 0px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1300px;
+  height: 2017px;
+  overflow: hidden;
+  z-index:0;
+ }
+
+#Background
+{
+  left: 0px;
+  top: 0px;
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 1300px;
+  height: 2017px;
+  z-index:1;
 }
 
-h1 {
+#ColorFill1
+{
+  left: 0px;
+  top: 0px;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  font-weight: 200;
-  font-size: 1.5rem;
+  width: 1300px;
+  height: 2017px;
+  z-index:2;
+}
+
+#footerbg
+{
+  left: 49px;
+  top: 1097px;
+  position: absolute;
+  width: 1202px;
+  height: 203px;
+  z-index:3;
+}
+
+#Copyright
+{
+  left: 100px;
+  top: 1117px;
+  position: absolute;
+  width: 68px;
+  height: 13px;
+  z-index:4;
+}
+
+#social
+{
+  left: 1100px;
+  top: 1118px;
+  position: absolute;
+  width: 100px;
+  height: 18px;
+  z-index:5;
+}
+
+#Rectangle4
+{
+  left: -7px;
+  top: 1797px;
+  position: absolute;
+  width: 1321px;
+  height: 221px;
+  z-index:6;
+}
+
+#Wanttojointheteamcar
+{
+  left: 253px;
+  top: 1971px;
+  position: absolute;
+  width: 750px;
+  height: 15px;
+  z-index:7;
+}
+
+#TwitterIconpng
+{
+  left: 684px;
+  top: 1922px;
+  position: absolute;
+  width: 22px;
+  height: 21px;
+  z-index:8;
+}
+
+#InstaIconpng
+{
+  left: 640px;
+  top: 1922px;
+  position: absolute;
+  width: 22px;
+  height: 21px;
+  z-index:9;
+}
+
+#FBIconpng
+{
+  left: 593px;
+  top: 1922px;
+  position: absolute;
+  width: 22px;
+  height: 21px;
+  z-index:10;
+}
+
+#Suite100CharlestonSC
+{
+  left: 524px;
+  top: 1858px;
+  position: absolute;
+  width: 251px;
+  height: 37px;
+  z-index:11;
+}
+
+#562KingGraphicpng
+{
+  left: 592px;
+  top: 1821px;
+  position: absolute;
+  width: 115px;
+  height: 20px;
+  z-index:12;
+}
+
+#GettingmarriedWeoffe
+{
+  left: 243px;
+  top: 1502px;
+  position: absolute;
+  width: 365px;
+  height: 175px;
+  z-index:13;
+}
+
+#droplets3png
+{
+  left: 195px;
+  top: 1472px;
+  position: absolute;
+  width: 56px;
+  height: 59px;
+  z-index:14;
+}
+
+#Rectangle2
+{
+  left: 650px;
+  top: 1454px;
+  position: absolute;
+  width: 481px;
+  height: 293px;
+  z-index:15;
+}
+
+#BridalMoira265013
+{
+  left: 614px;
+  top: 1402px;
+  position: absolute;
+  width: 529px;
+  height: 354px;
+  z-index:16;
+}
+
+#Rectangle1copy2
+{
+  left: 153px;
+  top: 1439px;
+  position: absolute;
+  width: 988px;
+  height: 279px;
+  z-index:17;
+}
+
+#Rectangle1copy3
+{
+  left: 145px;
+  top: 1432px;
+  position: absolute;
+  width: 1005px;
+  height: 294px;
+  z-index:18;
+}
+
+#Planningabignightout
+{
+  left: 697px;
+  top: 1203px;
+  position: absolute;
+  width: 402px;
+  height: 179px;
+  z-index:19;
+}
+
+#droplet2png
+{
+  left: 677px;
+  top: 1165px;
+  position: absolute;
+  width: 51px;
+  height: 63px;
+  z-index:20;
+}
+
+#Rectangle2copy
+{
+  left: 200px;
+  top: 1157px;
+  position: absolute;
+  width: 408px;
+  height: 300px;
+  z-index:21;
+}
+
+#NaturalJasmine264330
+{
+  left: 147px;
+  top: 1150px;
+  position: absolute;
+  width: 469px;
+  height: 312px;
+  z-index:22;
+}
+
+#INTERESTEDINacleaner
+{
+  left: 244px;
+  top: 887px;
+  position: absolute;
+  width: 398px;
+  height: 145px;
+  z-index:23;
+}
+
+#droplets1png
+{
+  left: 195px;
+  top: 860px;
+  position: absolute;
+  width: 68px;
+  height: 40px;
+  z-index:24;
+}
+
+#Rectangle2_0
+{
+  left: 717px;
+  top: 832px;
+  position: absolute;
+  width: 452px;
+  height: 300px;
+  z-index:25;
+}
+
+#NaturalMoira264227
+{
+  left: 719px;
+  top: 834px;
+  position: absolute;
+  width: 448px;
+  height: 297px;
+  z-index:26;
+}
+
+#Rectangle1copy2_0
+{
+  left: 153px;
+  top: 820px;
+  position: absolute;
+  width: 988px;
+  height: 279px;
+  z-index:27;
+}
+
+#Rectangle1copy3_0
+{
+  left: 145px;
+  top: 813px;
+  position: absolute;
+  width: 1005px;
+  height: 294px;
+  z-index:28;
+}
+
+#Rectangle5
+{
+  left: -7px;
+  top: 673px;
+  position: absolute;
+  width: 1321px;
+  height: 94px;
+  z-index:29;
+}
+
+#MAKEUPARTISTRYNATURA
+{
+  left: 279px;
+  top: 698px;
+  position: absolute;
+  width: 741px;
+  height: 44px;
+  z-index:30;
+}
+
+#LocatedintheheartofD
+{
+  left: 340px;
+  top: 411px;
+  position: absolute;
+  width: 619px;
+  height: 75px;
+  z-index:31;
+}
+
+#taglinepng
+{
+  left: 569px;
+  top: 534px;
+  position: absolute;
+  width: 160px;
+  height: 91px;
+  z-index:32;
+}
+
+#Logopng
+{
+  left: 493px;
+  top: 189px;
+  position: absolute;
+  width: 310px;
+  height: 176px;
+  z-index:33;
+}
+
+#Dropletspng
+{
+  left: 838px;
+  top: -31px;
+  position: absolute;
+  width: 288px;
+  height: 220px;
+  z-index:34;
+}
+
+#Rectangle1
+{
+  left: 497px;
+  top: -32px;
+  position: absolute;
+  width: 304px;
+  height: 113px;
+  z-index:35;
+}
+
+#Rectangle1copy
+{
+  left: 492px;
+  top: -28px;
+  position: absolute;
+  width: 314px;
+  height: 113px;
+  z-index:36;
+}
+
+#ComingFall2017FullWe
+{
+  left: 545px;
+  top: 24px;
+  position: absolute;
+  width: 209px;
+  height: 30px;
+  z-index:37;
 }
