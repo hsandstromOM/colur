@@ -23,7 +23,7 @@ if (isDeveloping) {
       modules: false,
     },
   });
-  app.use(express.static('dist/public'));
+  app.use(express.static('public'));
   app.use(middleware);
   app.use(webpackHotMiddleware(compiler));
   app.get('*', (req, res) => {
@@ -32,7 +32,7 @@ if (isDeveloping) {
   });
 } else {
   app.use(express.static(path.join(__dirname, '/../dist')));
-
+  app.use(express.static('public'));
   app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
   });
